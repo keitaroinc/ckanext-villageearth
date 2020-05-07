@@ -21,3 +21,7 @@
 .homepage .module-search {
   padding: 0px;
 }
+
+.nobullets {
+  list-style-type: none;
+ }
