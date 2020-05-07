@@ -3,23 +3,21 @@
    ======================================================================== */
 
 .masthead {
-  background-color: white;
-}
-/* The "navigation pills" in the masthead (the links to Datasets,
-   Organizations, etc) when the user's pointer hovers over them. */
-.masthead .navigation .nav-pills li a:hover {
-  background-color: rgb(48, 48, 48);
-  color: white;
-}
-/* The "active" navigation pill (for example, when you're on the /dataset page
-   the "Datasets" link is active). */
-.masthead .navigation .nav-pills li.active a {
-  background-color: rgb(74, 74, 74);
-}
-/* The "box shadow" effect that appears around the search box when it
-   has the keyboard cursor's focus. */
-.masthead input[type="text"]:focus {
-  -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
-  box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
+  background-color: #ffffff;
 }
 
+.masthead .navigation .nav-pills li {
+  color: #e6e6e6
+}
+
+.masthead .navigation .nav-pills li a{
+  color: #a6a6a6;
+}
+
+.hero {
+    background: url("../../../images/home_background.png");
+  }
+
+.homepage .module-search {
+  padding: 0px;
+}
