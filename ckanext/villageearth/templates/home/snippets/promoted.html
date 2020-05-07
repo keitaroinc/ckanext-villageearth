@@ -1,0 +1,30 @@
+{% set intro = g.site_intro_text %}
+
+<div class="module-content box">
+  <header>
+    {% if intro %}
+      {{ h.render_markdown(intro) }}
+    {% else %}
+      <p>
+        {% trans %}Welcome to Indian Lands Data Portal: a clearinghouse for data and maps
+        related American Indian Lands. The purpose of this portal is to promote greater
+        transparency and collaboration in furtherance of Indian Land claims, assessing the impact of
+        various current and historical policies on Native Americans and evaluating the performance of the federal
+        government in its various agreements and treaties with Native Nations and in its self-appointed
+        role as trustee over Indian Lands.
+        {% endtrans %}
+      </p>
+    {% endif %}
+  </header>
+
+  {% block home_image %}
+    <section class="featured media-overlay hidden-xs">
+      <h2 class="media-heading">{% block home_image_caption %}{{ _("This is a featured section") }}{% endblock %}</h2>
+      {% block home_image_content %}
+        <a class="media-image" href="#">
+          <img class="img-responsive" src="{{ h.url_for_static('/base/images/placeholder-420x220.png') }}" alt="Placeholder" width="420" height="220" />
+        </a>
+      {% endblock %}
+    </section>
+  {% endblock %}
+</div>

@@ -1,0 +1,42 @@
+<div role="main" class="hero">
+  <div class="container">
+    <div class="row row1">
+      <div class="col-md-6 col1">
+        {% block promoted %}
+          {% snippet 'home/snippets/promoted.html' %}
+        {% endblock %}
+      </div>
+      <div class="col-md-6 col1">
+        {% block stats %}
+          {% snippet 'home/snippets/stats.html' %}
+        {% endblock %}
+        {% block search %}
+          {% snippet 'home/snippets/search.html' %}
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+</div>
+<div role="main">
+  <div class="container">
+    <div class="row row2">
+      <div class="col-md-6 col1">
+        {% block featured_group %}
+        <div class="box">
+          <header class="module-heading">
+            <h3>Recent activity</h3>
+          </header>
+          <div class="module-content">
+            {{ h.recently_changed_packages_activity_stream(limit=5) | safe }}
+          </div>
+        </div>
+      {% endblock %}
+      </div>
+      <div class="col-md-6 col2">
+        {% block featured_organization %}
+          {% snippet 'home/snippets/most_popular_groups.html' %}
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+</div>
