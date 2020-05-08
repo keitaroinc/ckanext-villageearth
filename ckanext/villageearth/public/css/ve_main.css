@@ -1,18 +1,14 @@
 .masthead {
-  background-color: #ffffff;
-}
-
-.masthead .navigation .nav-pills li {
-  color: #e6e6e6
-}
-
-.masthead .navigation .nav-pills li a{
-  color: #a6a6a6;
+  background-color: #438292;
 }
 
 .hero {
     background: url("../../../images/home_background.png");
   }
+
+.homepage .module-search .module-content {
+  background-color: #438292;
+}
 
 .homepage .module-search {
   padding: 0px;
@@ -21,3 +17,9 @@
 .nobullets {
   list-style-type: none;
  }
+
+
+.site-footer,
+body {
+  background-color: #438292;
+}
