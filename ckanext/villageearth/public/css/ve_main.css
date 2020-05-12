@@ -3,8 +3,8 @@
 }
 
 .hero {
-    background: url("../../../images/home_background.png");
-  }
+  background: url("../../../images/large-desert-background-min.png") no-repeat center;
+}
 
 .homepage .module-search .module-content {
   background-color: #438292;
@@ -18,8 +18,16 @@
   list-style-type: none;
  }
 
-
 .site-footer,
 body {
   background-color: #438292;
+}
+
+.attribution .keitaro-footer-logo {
+  display: block;
+  width: 68px;
+  height: 21px;
+  margin-top: 2px;
+  background: url("../../../images/keitaro-logo-landscape.png");
+  text-indent: -900em;
 }
