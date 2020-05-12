@@ -3,7 +3,10 @@
 }
 
 .hero {
-  background: url("../../../images/large-desert-background-min.png") no-repeat center;
+  background: url("../../../images/large-desert-background-min.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .homepage .module-search .module-content {
@@ -25,9 +28,12 @@ body {
 
 .attribution .keitaro-footer-logo {
   display: block;
-  width: 68px;
-  height: 21px;
+  width: 75px;
+  height: 25px;
   margin-top: 2px;
   background: url("../../../images/keitaro-logo-landscape.png");
   text-indent: -900em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
