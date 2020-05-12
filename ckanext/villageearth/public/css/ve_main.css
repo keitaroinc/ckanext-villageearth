@@ -28,10 +28,10 @@ body {
 
 .attribution .keitaro-footer-logo {
   display: block;
-  width: 75px;
-  height: 25px;
+  width: 90px;
+  height: 35px;
   margin-top: 2px;
-  background: url("../../../images/keitaro-logo-landscape.png");
+  background: url("../../../images/keitaro-logotype-white-transparent.png");
   text-indent: -900em;
   background-size: cover;
   background-repeat: no-repeat;
