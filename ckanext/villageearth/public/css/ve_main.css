@@ -11,6 +11,16 @@
   font-style: normal;
 }
 
+.masthead .navigation .nav-pills li a:hover {
+  background-color: white;
+  color: #51bb8c;
+}
+
+.masthead .navigation .nav-pills li.active a {
+  background-color: white;
+  color: #51bb8c;
+}
+
 .hero {
   background: url("../../../images/large-desert-background-min.png");
   background-size: cover;
